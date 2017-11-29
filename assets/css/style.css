@@ -1,0 +1,10 @@
+body {
+    background-image: url("assets/images/crystal-background.jpeg")
+}
+header, #instuctions, #number-counter, #wins-losses, #crystal-buttons, #wrapper, #total-score, #score-counter  {
+    /* delete once final ready */
+    border: 2px red solid;
+    /* ...................... */
+    margin: 10px auto;
+}
+
