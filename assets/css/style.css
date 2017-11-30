@@ -1,10 +1,64 @@
 body {
-    background-image: url("assets/images/crystal-background.jpeg")
+    background-image: url("https://images.vexels.com/media/users/3/78509/raw/f7b469077864a6ab6865eebf044acd22-blue-hexagon-pattern-background.jpg");
 }
-header, #instuctions, #number-counter, #wins-losses, #crystal-buttons, #wrapper, #total-score, #score-counter  {
+.game-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+header, #instructions, .wrapper-number, #random-number, #wins-losses, .crystal-buttons, .wrapper-score, #total-score, #score-counter  {
     /* delete once final ready */
-    border: 2px red solid;
+    /* border: 2px red solid; */
     /* ...................... */
     margin: 10px auto;
 }
+header, .wrapper-number, #random-number, #wins-losses, .crystal-buttons, .wrapper-score, #total-score, #score-counter  {
+    padding-top:10px;
+    padding-bottom:10px;
+}
 
+header {
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+}
+#instructions {
+    background-color: #FAEBD7;
+    padding: 15px;
+}
+h4, h3, h2 {
+    text-align: center;
+}
+#wins-losses, #random-number   {
+    display: inline-block;
+    width: 48.3%;
+    vertical-align: top;
+}
+#random-number   {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: green;
+    margin-left: 10px;
+}
+
+#wins-losses {
+    background-color: skyblue;
+    padding-left: 20px;
+}
+
+.crystal-buttons{
+    margin: 10px;
+    align-content: center;
+    border: 2px red solid;
+
+}
+#fa-red {
+    color: red;
+}
+
+
+
+#total-score, #score-counter {
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: teal
+}
