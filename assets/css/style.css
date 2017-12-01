@@ -11,17 +11,18 @@ body {
     /* background-image: url("images/crystal-image.jpeg"); .... couldn't make the image work through relative path.... revisit */
     background-image: url("https://images.vexels.com/media/users/3/78509/raw/f7b469077864a6ab6865eebf044acd22-blue-hexagon-pattern-background.jpg");
 }
-.header, .instructions, #random-number, #wins-losses, .crystals, #total-score, #score-counter{
+.header, .instructions, #random-number, #wins-losses, #total-score, #score-counter{
     background-color: pink;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 .header {
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 20px;
 }
 .wrapper{
-border: 1px red solid;
 margin-top: 5px;
 margin-bottom: 5px;
 }
@@ -36,7 +37,6 @@ margin-bottom: 5px;
     
 }
 #random-number, #wins-losses {
-    border: 1px red solid;
     width:49.53%;
     height: 100px;
     float: left;
@@ -47,24 +47,18 @@ margin-left: 5px;
 #random-number {
     margin-right: 5px;
 }
-.fa-red {
-    color: red;  
-}
-.fa-blue {
-    color: Blue;
-}
-.fa-yellow {
-    color: yellow;
-}
-.fa-green {
-    color: green;
-}
 .crystals {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+/* crystals are not coming through js code... revisit */
+.crystal {
+    border: 1px solid rgb(128, 0, 0);
+    height: 200px;
+    width: 200px;
 }
 #total-score, #score-counter {
-    border: 1px red solid;
     margin-bottom:5px;
+    padding: 30px;
 }
